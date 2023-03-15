@@ -1,0 +1,602 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    background-color: #262626;
+    height: 160vh;
+    display: flex;
+}
+
+.hero_head {
+    margin-left: 20px;
+    height: 90vh;
+    float: left;
+    margin-top: 100px;
+}
+.hedding1 {
+    font-size: 80px;
+    color: white;
+    float: left;
+    margin-top: 160px;
+    max-width: 100%;
+}
+.hero_img {
+    float: right;
+    margin-right: 20px;
+    margin-top: -300px;
+    transition: 2s ease;
+    max-width: 100%;
+}
+.para1 {
+    font-size: 22px;
+    float: left;
+    margin-top: -500px;
+    color: aliceblue;
+    line-height: 30px;
+}
+.page button {
+
+    margin-top: 300px;
+    width: 300px;
+    height: 84px;
+    background-color: #F29F05;
+    border-radius: 60px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-size: 20px;
+}
+.page button:hover {
+    border: 2px solid #F29F05;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #F29F05;
+}
+
+.card1 {
+    width: 340px;
+    height: 160px;
+    border-radius: 15px;
+    margin-top: 700px;
+    float: left;
+    margin: 18px;
+    cursor: pointer;
+    max-width: 100%;
+}
+
+/* Page 2 */
+.page1 {
+    margin-top: 300px;
+}
+.page1 p {
+    font-size: 20px;
+    text-align: center;
+    color: #F29F05
+}
+.page1 h3 {
+    font-size: 50px;
+    text-align: center;
+    color: #262626;
+}
+
+.inthover{
+    transition: 2s ease;
+}
+    
+.inthover:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+.card_product {
+    max-width: 320px;
+    margin-left: 40px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    /* background-color: #f0eeee; */
+}
+.card_product img {
+    max-width: 300px;
+    cursor: pointer;
+    max-width: 100%;
+}
+.card_product img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+.card_product h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.card_product h2:hover {
+    color: #F29F05;
+}
+.card_product p {
+    color: gray;
+    margin-top: 26px;
+    font-size: 16px;
+    text-align: center;
+}
+.card_product h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.card_product button {
+    background-color: #ffc862;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border: none;
+    font-size: 20px;
+}
+.card_product button:hover {
+    border: 2px solid #F29F05;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #F29F05;
+}
+
+/* Slide 3 */
+.page3 {
+    background-image: url(/img/sit-photo.jpg);
+    height: 140vh;
+    max-width: 100%;
+    margin-top: 800px;
+}
+.sit {
+    background-color: #262626;
+    height: 140vh;
+    max-width: 40%;
+    float: right;
+    padding-left: 100px;
+    padding-right: 30px;
+}
+.sit h2 {
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: 200px;
+}
+.sit p {
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 30px;
+    color: gainsboro;
+}
+
+.sit button {
+    background-color: #ffc862;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    margin-top: 80px;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border: none;
+    font-size: 20px;
+}
+.sit button:hover {
+    border: 2px solid #F29F05;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.detal {
+    margin-top: 40px;
+    max-width: 100px;
+    float: left;
+    margin-left: 50px;
+}
+.detal h5 {
+    margin-top: 30px;
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
+}
+.icon {
+    color: #F29F05;
+}
+
+/* page 4 */
+.pizza {
+    background-color: #f3b33d;
+    height: 140vh;
+    padding-left: 30px;
+    max-width: 100%;
+}
+.pizza_h {
+    font-size: 80px;
+    color: white;
+    float: left;
+    margin-top: 180px;
+}
+
+.pizza button {
+    float: left;
+    margin-left: 0px;
+}
+.pizza img {
+    object-fit:cover;
+    float: right;
+    margin-top: -400px;
+    object-position: left;
+    max-width:100%;
+    /* border: solid 1px #CCC; */
+    /* text-align: center; */
+    /* background-size: 100px !important; */
+  /* background-position: center !important; */
+}
+.pizza button {
+    margin-top: 50px;
+    /* border: 1px solid white; */
+    border: none;
+    border-radius: 40px;
+    width: 240px;
+    height: 70px;
+    display: block;
+    background: linear-gradient(to right, white 50%, rgb(38, 37, 37) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.pizza button:hover {
+  background-position: left bottom;
+  color: black;
+}
+
+/* Page 5 */
+.page5 {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.page5 p {
+    font-size: 20px;
+    text-align: center;
+    color: #F29F05
+}
+.page5 h3 {
+    font-size: 50px;
+    text-align: center;
+    color: #262626;
+}
+/*  slider */
+.mySlides {
+    display:none;
+}
+
+.display {
+    width: 100px;
+    height: 30px;
+    margin-left: 30%;
+    background-color: #F29F05;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.display:hover {
+    background-color: white;
+    border: 1px solid #F29F05;
+}
+
+/* page 6 */
+.p6 {
+    background-color: rgb(243, 239, 235);
+    padding-top: 80px;
+    height: 121vh;
+}
+.p6_head {
+    margin-left: 20px;
+    max-width: 50%;
+    float: left;
+}
+.p6_head h1 {
+    font-size: 48px;
+}
+.p6_head p {
+    color: gray;
+    float: left;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+.p6_head h4 {
+    margin-top: 40px;
+    font-size: 26px;
+    margin-bottom: 80px;
+}
+.points {
+    background-color: #ffc862;
+    padding: 10px;
+    border-radius: 120px;
+    color: white;
+    margin-right: 20px;
+}
+.phone {
+    float: right;
+    max-width: 100%;
+}
+/* Subscribe */
+.sub {
+    background-color: #f3b33d;
+    position: relative;
+    height: 200px;
+    margin-top: -100px;
+}
+.sub img {
+    margin-top: 60px;
+    margin-left: 30px;
+    max-width: 100%;
+    float: left;
+}
+.sub p {
+    float: left;
+    color: white;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.sub h2 {
+    float: left;
+    margin-top: 100px;
+    margin-left: -238px;
+    font-size: 34px;
+}
+.Subscribe {
+    float: right;
+}
+.sub input {
+    width: 360px;
+    height: 60px;
+    border-radius: 50px 8px 8px 50px;
+    padding-left: 30px;
+    font-size: 16px;
+    border: none;
+}
+.sub button {
+    width: 140px;
+    height: 60px;
+    border-radius: 8px 50px 50px 8px;
+    font-size: 16px;
+    position: relative;
+    background-color: #262626;
+    margin-right: 30px;
+    color: white;
+    cursor: pointer;
+}
+.sub button:hover {
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+/* Footer */
+footer {
+    background-color: #262626;
+    height: 76vh;
+    padding-top: 100px;
+}
+
+footer img {
+    float: left;
+    margin-left: 260px;
+    max-width: 540px;
+    height: 160px;
+    border-radius: 20px 0px 0px 20px;
+}
+.foot_img {
+    float: left;
+    background-color: #f1b74b;
+    width: 450px;
+    padding: 35px;
+    border-radius: 0px 20px 20px 0px;
+}
+footer h2 {
+    font-size: 20px;
+}
+footer h1 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+.logo img {
+    width: 200px;
+    height: 40px;
+    margin-left: 600px;
+    margin-top: 60px;
+}
+.logo p {
+    margin-top: 40px;
+    width: 900%;
+    text-align: center;
+    float: left;
+    color: gray;
+    line-height: 30px;
+}
+.social {
+    color: #f1b74b;
+    margin-left: 600px;
+    display: inline;
+}
+
+
+
+
+/* Mobile */
+@media screen and (max-width:600px){
+    .page {
+        background-color: #262626;
+        height: 200vh;
+        max-width: 100%;
+        display: flex;
+    }
+    .hedding1 {
+        font-size: 60px;
+    }
+    .hero_img {
+        float: left;
+        max-width: 80%;
+        margin-top: 60px;
+        
+    }
+    .para1 {
+        font-size: 18px;
+        float: left;
+        margin-top: 50px;
+        color: aliceblue;
+        line-height: 30px;
+        max-width: 80%;
+    }
+
+    .page button {
+        max-width: 260px;
+        height: 84px;
+        background-color: #F29F05;
+        border-radius: 60px;
+        border: none;
+        font-size: 16px;
+        color: white;
+        font-size: 20px;
+    }
+
+    /* Card */
+    .card1 {
+        max-width: 290px;
+        height: 160px;
+        border-radius: 15px;
+        margin-top: 700px;
+        float: left;
+        margin: 18px;
+        cursor: pointer;
+    }
+
+    .headline {
+        margin-top: 900px;
+    }
+
+    .headline h3 {
+        font-size: 20px;
+    }
+    .card_product p {
+        font-size: 12px;
+    }
+
+    .page3 {
+        background-image: url(none);
+        height: 140vh;
+        max-width: 100%;
+    }
+
+    .sit {
+        height: 140vh;
+        max-width: 100%;
+        float: right;
+        padding-left: 100px;
+        padding-right: 30px;
+    }
+    .sit h2 {
+        color: #ffffff;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .sit p {
+        font-size: 14px;
+    }
+
+    .detal {
+        margin-top: 50px;
+        max-width: 70px;
+        float: left;
+    }
+    .detal h5 {
+        font-size: 16px;
+        color: white;
+        line-height: 30px;
+    }
+    .icon {
+        color: #F29F05;
+    }
+    .pizza {
+        background-color: #f3b33d;
+        height: 80vh;
+        margin-top: 2000px;
+    }
+    .pizza_h {
+        font-size: 40px;
+        margin-top: -4px;
+    }
+    .pizza img {
+        object-position: left;
+        max-width:100%;
+        margin-top: 50px;
+    }
+    /* Slider */
+
+    .headline {
+        margin-top: 10px;
+    }
+    .display {
+        max-width: 10%;
+        height: 30px;
+        margin-left: 26%;
+        border-radius: 100px;
+    }
+
+    /* Page 6 */
+    .p6 {
+        height: 146vh;
+    }
+    .p6_head {
+        max-width: 100%;
+        float: left;
+    }
+    .p6_head h1 {
+        font-size: 24px;
+    }
+    .p6_head h4 {
+        font-size: 16px;
+    }
+
+    /* Subscribe */
+.sub {
+    height: 260px;
+}
+.sub img {
+    margin-top: -100px;
+    max-width: 100%;
+}
+.sub p {
+    float: left;
+    margin-top: 20px;
+}
+.sub h2 {
+    font-size: 18px;
+    margin-top: -1px;
+}
+.sub input {
+    margin-top: 20px;
+    max-width: 140px;
+}
+
+
+
+}

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resto Menu</title>
+    <link rel="shortcut icon" href="img/Web_resto2.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+
+    <style>
+        .no-drop {cursor: no-drop;}
+    </style>
+</head>
+<body>
+
+  <!-- Navigation Bar Start -->
+  <div class="container">
+    <nav class="flex">
+      <div class="logo">Web_Resto</div>
+      <ul>
+        <li><a href="index.html"> <b> Home </b></a></li>
+        <li><a href="Reservation.html"> <b> Book A Table </b></a></li>
+        <li>
+          <a style="cursor: pointer;" class="active"> <b> Our Menu</b>
+            <i class='fas fa-angle-down'></i>
+          </a>
+          <ul>
+            <li><a href="menu.html" class="active" ><b class="no-drop">Full Menu</b></a></li>
+            <li><a href="Starters.html"><b>Starters</b></a></li>
+            <li><a href="Main dishes.html"><b>Main dishes</b></a></li>
+            <li><a href="Drinks.html"><b>Drinks</b></a></li>
+            <li><a href="Desserts.html"><b>Desserts</b></a></li>
+          </ul>
+        </li>
+
+
+        <li>
+          <a style="cursor: pointer;"> <b>About</b>
+            <i class='fas fa-angle-down'></i>
+          </a>
+            <i class="fas fa-caret-down"></i>
+          </a>
+
+          <ul>
+            <li>
+              <a href="About.html"><b>About Us</b>
+                <i class="fas fa-caret-right"></i>
+              </a>
+
+              <!-- <ul>
+                <li><a href="#"><b>Html 5</b></a></li>
+                <li><a href="#"><b>css</b></a></li>
+                <li><a href="#"><b>js</b></a></li>
+              </ul> -->
+            </li>
+
+            <li>
+              <a href="Review.html"><b>Review</b>
+                <i class="fas fa-caret-right"></i>
+              </a>
+<!--             
+              <ul>
+                <li><a href="#">Node.js</a></li>
+                <li><a href="#">Mongo.db</a></li>
+              </ul> -->
+            </li>
+
+          </ul>
+        </li>
+        
+        <li><b><a href="contact.html">Contact</a></b></li>
+      </ul>
+    </nav>
+
+      <!-- Navigation Bar end -->
+
+
+
+  <!-- First Slide -->
+  <div class="container 4">
+    <table  border="0" align="center" cellpadding="15" cellspacing="50px" width="90%"  style="margin-left: 90px; max-width: 100%;">
+
+
+    <!-- First Row -->
+
+      <!-- First image -->
+      <tr cellspacing="50px">
+        <th >
+          <h1 style="color:  rgb(0, 0, 0); cursor: pointer; margin-top: 110px; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 60px; line-height: 80px; ">
+            Only appetiteb <br> Can be lacking in cooking</h1>
+          <br>
+        </th>
+      </tr>
+
+      <tr>
+        <th>
+            <div class="sb-btn " style="margin-top: 110px;  letter-spacing: 5px;">
+                <span class="sb-icon" >
+                    <a href="index.html"><img class="inthover" src="img/home.png" alt="icon"></a>
+                </span>
+                <span> &nbsp; / &nbsp; </span>
+                <span><p class="no-drop">Menu</p></span>
+            </div>
+        </th>
+      </tr>
+    </table>
+    
+  </div>
+
+
+  <!-- Second Slide -->
+  <div  class="container6">
+    <table  border="0" align="center" cellpadding="5" cellspacing="10px" width="100%"  style="margin-left: 20px; max-width: 100%;">
+
+
+    <!-- First Row -->
+    <div id="myBtnContainer" >
+      <tr>
+        <th colspan="3" align="left">
+          <div >
+            <button class="btn active" onclick="filterSelection('all')" style="font-size: 20px;"> All dishes</button>
+            <button class="btn" onclick="filterSelection('Starters')" style="font-size: 20px;"> Starters</button>
+            <button class="btn" onclick="filterSelection('Main dishes')" style="font-size: 20px;"> Main dishes</button>
+            <button class="btn" onclick="filterSelection('Drinks')" style="font-size: 20px;"> Drinks</button>
+            <button class="btn" onclick="filterSelection('Dessert')" style="font-size: 20px;"> Dessert</button>
+          </div>
+        </th>
+      </tr>
+    </div>
+
+      <tr>
+        <th>
+          <div class="container6" >
+            <!-- Starters -->
+            <div class="filterDiv Starters"><img class="inthover2" src="img/mini-paneer-samosa-1.jpg" alt="" width="400px" height="400px">
+              <p style=" color: rgb(139, 6, 255); background-color: #F5C332;">Cocktail Samosa (Mini Paneer Samosa)</p>
+            </div>
+            <div class="filterDiv Starters"><img class="inthover2" src="img/samosa-chaat-2.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Samosa Chaat </p>
+            </div>
+            <div class="filterDiv Starters Main dishes"><img class="inthover2" src="img/pani-puri-recipe-2.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Pani Puri Recipe (Water & Stuffing) </p>
+            </div>
+            <div class="filterDiv Starters Main dishes"><img class="inthover2" src="img/dill-leaves-pakoda-5.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Dill Leaves Pakoda</p>
+            </div>
+            <div class="filterDiv Starters Main dishes"><img class="inthover2" src="img/creamy-tomato-soup-2.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Creamy Indian Tomato Soup (Instant Pot)</p>
+            </div>
+            <div class="filterDiv Starters Main dishes"><img class="inthover2" src="img/Palak-soup-1.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Spinach Soup (Palak Soup)</p>
+            </div>
+            <div class="filterDiv Starters Main dishes"><img class="inthover2" src="img/dahi-vada-2.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Dahi Vada</p>
+            </div>
+            <div class="filterDiv Starters Main dishes"><img class="inthover2" src="img/paneer-tikka-recipe-2.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Paneer Tikka</p>
+            </div>
+            <div class="filterDiv Starters Main dishes"><img class="inthover2" src="img/paneer-65-recipe-1.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Paneer 65</p>
+            </div>
+            <div class="filterDiv Starters Main dishes"><img class="inthover2" src="img/kothimbir-vadi-12.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Crispy Kothimbir Vadi Recipe (Maharashtrian Snack)</p>
+            </div>
+            <div class="filterDiv Starters Main dishes"><img class="inthover2" src="img/palak-pakora-chaat-4.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Palak Chaat</p>
+            </div>
+            <div class="filterDiv Starters Main dishes"><img class="inthover2" src="img/veg-manchow-soup-recipe-10.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">veg manchow soup</p>
+            </div>
+
+            <!-- Main dishes -->
+            <div class="filterDiv Main dishes"><img class="inthover2" src="img/Palak-Paneer-PTR-Featured-1-395x500.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">PALAK PANEER </p>
+            </div>
+            <div class="filterDiv Main dishes"><img class="inthover2" src="img/Butter-Chicken-PTR-Featured-395x500.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">BUTTER CHICKEN </p>
+            </div>
+            <div class="filterDiv Main dishes"><img class="inthover2" src="img/Sandwich-.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">BOMBAY GRILLED CHUTNEY SANDWICH </p>
+            </div>
+            <div class="filterDiv Main dishes"><img class="inthover2" src="img/rogan.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">ROGAN JOSH </p>
+            </div>
+            <div class="filterDiv Main dishes"><img class="inthover2" src="img/Grilled-Chicken-.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">GRILLED CHICKEN WITH FRESH CHERRY SALSA </p>
+            </div>
+            <div class="filterDiv Main dishes"><img class="inthover2" src="img/Indian-Style-Lentils-.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">INDIAN STYLE LENTILS (DAL TADKA) </p>
+            </div>
+            <div class="filterDiv Main dishes"><img class="inthover2" src="img/dal-makhani-310x310.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">DAL MAKHANI </p>
+            </div>
+
+            <!-- Drinks -->
+            <div class="filterDiv Drinks"><img class="inthover2" src="img/Black tea.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Black Tea</p>
+            </div>
+            <div class="filterDiv Drinks Main dishes"><img class="inthover2" src="img/Tea.webp" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Tea </p>
+            </div>
+            <div class="filterDiv Drinks"><img class="inthover2" src="img/Leamon tea.webp" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Leamon Tea </p>
+            </div>
+            <div class="filterDiv Drinks"><img class="inthover2" src="img/Lemon juce.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Leamon juice </p>
+            </div>
+            <div class="filterDiv Drinks"><img class="inthover2" src="img/Vegetable-Juice.png" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Vegetable Juice </p>
+            </div>
+            <div class="filterDiv Drinks"><img class="inthover2" src="img/Mango-Juice.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Mango Juice </p>
+            </div>
+            <div class="filterDiv Drinks"><img class="inthover2" src="img/Watermelon.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Watermelon Juice </p>
+            </div>
+            <div class="filterDiv Drinks"><img class="inthover2" src="img/Apple.jpg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Apple Juice </p>
+            </div>
+            <div class="filterDiv Drinks"><img class="inthover2" src="img/cup.png" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Coffe </p>
+            </div>
+
+            <!-- Dessert -->
+            <div class="filterDiv Dessert "><img class="inthover2" src="img/d13.jpeg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Almond and date cake</p>
+            </div>
+            
+            <div class="filterDiv Dessert"><img class="inthover2" src="img/d12.jpeg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Maltesers tiramisu
+              </p>
+            </div>
+            
+            <div class="filterDiv Dessert"><img class="inthover2" src="img/d11.jpeg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">honey cheesecake</p>
+            </div>
+            <div class="filterDiv Dessert"><img class="inthover2" src="img/d10.jpeg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Chocolate banoffee pie</p>
+            </div>
+            <div class="filterDiv Dessert"><img class="inthover2" src="img/d9.jpeg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Chocolate & mint cheesecake</p>
+            </div>
+            <div class="filterDiv Dessert"><img class="inthover2" src="img/d8.jpeg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Apple & cherry strudel</p>
+            </div>
+            <div class="filterDiv Dessert"><img class="inthover2" src="img/d7.jpeg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Mangomisu</p>
+            </div>
+            <div class="filterDiv Dessert"><img class="inthover2" src="img/d6.jpeg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Banana split</p>
+            </div>
+            <div class="filterDiv Dessert"><img class="inthover2" src="img/d5.jpeg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Napoleon</p>
+            </div>
+            <div class="filterDiv Dessert"><img class="inthover2" src="img/d3.jpeg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Mocha log</p>
+            </div>
+            <div class="filterDiv Dessert"><img class="inthover2" src="img/d2.jpeg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">Almond strawberry roulade</p>
+            </div>
+            <div class="filterDiv Dessert"><img class="inthover2" src="img/d1.jpeg" alt="" width="400px" height="400px">
+              <p style=" color: black; background-color: #F5C332;">After-dinner choc-ices</p>
+            </div>
+
+          </div>
+        </th>
+      </tr>
+
+  </table>
+
+  <div class="container 4">
+    <table  border="0" align="center" cellpadding="5" cellspacing="0" width="90%"  style="margin-left: 90px;">
+    <!-- <table  border="0" align="center"  width="90%"  style="margin-left: 90px;"> -->
+
+      <!-- First Row -->
+
+      <!-- First image -->
+      <tr>
+        <th>
+          <h1 style="color:  rgb(0, 0, 0); cursor: pointer; margin-left: 14px; margin-top: 50px; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 70px;">Free delivery <br> service.</h1>
+          <br>
+        </th>
+        
+        <th rowspan="2">
+          <img src="img/delivery.png" alt="" style="height: 650px;">
+        </th>
+      </tr>
+
+      <tr>
+
+        <th align="left">
+          <a href="menu.html" class="sb-btn " style="margin-bottom: 50px; letter-spacing: 5px;">
+            <span class="sb-icon" >
+              <img src="img/cart.svg" alt="icon">
+            </span>
+            <span>&nbsp; Order delivery</span>
+          </a>
+
+          <a href="menu.html" class="sb-btn sb-btn-2 sb-btn-gray">
+            <span class="sb-icon">
+              <img src="img/menu.svg" alt="icon">
+            </span>
+            <span>&nbsp; Menu</span>
+          </a>
+        </th>
+
+      </tr>
+
+
+    </table>
+    
+  </div>
+    
+  
+
+  <script src="Js/Menu.js"></script>
+
+
+</body>
+</html>

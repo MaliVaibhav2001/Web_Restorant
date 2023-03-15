@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link rel="shortcut icon" href="img/Web_resto2.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Reservation.css">
+
+    <style>
+        .no-drop {cursor: no-drop;}
+    </style>
+</head>
+<body>
+   <!-- Navigation Bar Start -->
+   <div class="container">
+    <nav class="flex">
+      <div class="logo">Web_Resto</div>
+      <ul>
+        <li><a href="index.html"> <b> Home </b></a></li>
+        <li><a href="Reservation.html" class="active" > <b class="no-drop"> Book A Table </b></a></li>
+        <li>
+          <a style="cursor: pointer;"> <b> Our Menu</b>
+            <i class='fas fa-angle-down'></i>
+          </a>
+          <ul>
+            <li><a href="menu.html"><b>Full Menu</b></a></li>
+            <li><a href="Starters.html"><b>Starters</b></a></li>
+            <li><a href="Main dishes.html"><b>Main dishes</b></a></li>
+            <li><a href="Drinks.html"><b>Drinks</b></a></li>
+            <li><a href="Desserts.html"><b>Desserts</b></a></li>
+          </ul>
+        </li>
+
+
+        <li>
+          <a style="cursor: pointer;"> <b>About</b>
+            <i class='fas fa-angle-down'></i>
+          </a>
+            <i class="fas fa-caret-down"></i>
+          </a>
+
+          <ul>
+            <li>
+              <a href="About.html"><b>About Us</b>
+                <i class="fas fa-caret-right"></i>
+              </a>
+
+              <!-- <ul>
+                <li><a href="#"><b>Html 5</b></a></li>
+                <li><a href="#"><b>css</b></a></li>
+                <li><a href="#"><b>js</b></a></li>
+              </ul> -->
+            </li>
+
+            <li>
+              <a href="Review.html"><b>Review</b>
+                <i class="fas fa-caret-right"></i>
+              </a>
+<!--             
+              <ul>
+                <li><a href="#">Node.js</a></li>
+                <li><a href="#">Mongo.db</a></li>
+              </ul> -->
+            </li>
+
+          </ul>
+        </li>
+        
+        <li><b><a href="contact.html">Contact</a></b></li>
+      </ul>
+    </nav>
+
+      <!-- Navigation Bar end -->
+
+
+  <!-- First Slide -->
+  <!-- <div>
+    <table  border="0" align="center" cellpadding="15" cellspacing="50px" width="90%"  style="margin-left: 90px; margin-bottom: 100px;">
+
+
+     First Row 
+
+      First image
+      <tr cellspacing="50px">
+        <th >
+          <h1 align="left" style="color:  rgb(235, 104, 64); cursor: pointer; margin-top: 110px; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 40px; line-height: 80px; ">
+            Feedback from our guests</h1>
+          <br>
+        </th>
+
+        <th>
+            <div class="sb-btn " style="margin-top: 110px;  letter-spacing: 2px;">
+                <span class="sb-icon" >
+                    <a href="index.html"><img class="inthover" src="img/home.png" alt="icon"></a>
+                </span>
+                <span> &nbsp; / &nbsp; </span>
+                <span><p class="no-drop">Review</p></span>
+            </div>
+        </th>
+      </tr>
+    </table>
+    </div> -->
+
+
+    
+
+
+    <!-- Second Slide -->
+    <div class="container 4">
+        <table  border="0" align="left" cellpadding="20" cellspacing="52" width="90%"  style="margin-left: 90px; margin-bottom: 130px;">
+    
+          <!-- First Row -->
+        <tr>
+
+
+            <th style="border-color: rgb(192, 192, 192);">
+              <h1 align="left" style="color:  rgb(10, 1, 91); cursor: pointer;  margin-top: 50px; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 70px;">
+                Mmm...! <br>
+                Your evening <br>
+                will be great!</h1>
+              <br><br>
+              <p class="sb-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </th>
+            <th>
+                <table border="0" width="100%">
+
+                       
+<!-- 
+                        <tr>
+                            <th>
+                                <input type="text" name="name" required>
+                            </th>
+                        </tr>
+                            <tr>
+                                <th>
+                                    <input type="tel" name="email" required>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <input type="text" name="date" data-language="en" class="datepicker-here sb-dtepicker" date-timepicker="true" data-position="bottom left" required>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <input type="number" name="person"  required>
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <th>
+                                    <a href="menu.html" class="sb-btn " style="margin-top: 10px;  letter-spacing: 5px;">
+                                        <span class="sb-icon" >
+                                            <img src="img/menu.svg" alt="icon">
+                                        </span>
+                                        <span> &nbsp;Reserve</span>
+                                    </a>
+                                </th>
+                            </tr> -->
+                            <tr>
+                                <th rowspan="2">
+                                    <main id="main-holder">
+                                        <h1 id="login-header">Reservation details</h1><br><br>
+                                        
+                                        <div id="login-error-msg-holder">
+                                          <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+                                        </div>
+                                        <br><br>
+                                        
+                                        <form id="login-form">
+                                          <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Full name" required> <br>
+                                          <input type="tel" name="mobile" maxlength="10" id="password-field" class="login-form-field" placeholder="Phone" required> <br>
+                                          <input type="number" name="person" class="login-form-field" placeholder="Person" required> <br>
+                                          <input type="date" name="date" data-language="en" class="login-form-field" placeholder="Date" date-timepicker="true" data-position="bottom left" required> <br> <br>
+                                          <input type="submit" value="Reserve" id="login-form-submit" class="sb-btn ">
+                                        </form>
+                                      
+                                      </main>
+                                </th>
+                            </tr>
+
+                </table>
+            </th>
+
+
+        
+        </table>
+      </div>
+
+
+
+      <div>
+        <table  border="0" align="center" cellpadding="5" cellspacing="80" width="90%" style="margin-left: 90px;">
+          <tr >
+            <td align="left"  style="margin-left: 50px; margin-top: 10px;">
+                 
+              <td class="sb-features">
+                <li class="sb-features-item sb-mb-60">
+                  <div class="sb-number">01</div>
+                  <div class="sb-feature-text">
+                    <h3 class="sb-mb-15" style="font-size: 30px;">Welcome!</h3>
+                    <p class="sb-text">Welcome To Web_Resto</p>
+                  </div>
+                </li>
+            </td>
+            <td>
+                <!-- Second -->
+                <li class="sb-features-item sb-mb-60">
+                  <div class="sb-number">02</div>
+                  <div class="sb-feature-text">
+                    <h3 class="sb-mb-15" style="font-size: 30px;">Call</h3>
+                    <p class="sb-text">+91-0123456789</p>
+                  </div>
+                </li>
+            </td>
+            <td>
+                <!-- Third -->
+                <li class="sb-features-item sb-mb-60">
+                  <div class="sb-number">03</div>
+                  <div class="sb-feature-text">
+                    <h3 style="font-size: 30px;">Write Us</h3>
+                    <p class="sb-text">abc01@gmail.com</p>
+                  </div>
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+
+
+    <div>
+        <table  border="0" align="center" cellpadding="5" cellspacing="80" width="90%" style="margin-left: 90px;">
+            <tr>
+                <th style="font-size: 70px; color: rgb(6, 6, 68);">Our Location</th>
+            </tr>
+            <tr>
+                <th>
+                    <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Shahu Colony karve nager&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://piratebay-proxys.com/">Piratebay</a></div><style>.mapouter{position:relative;text-align:right;width:800px;height:600px;}.gmap_canvas {overflow:hidden;background:none!important;width:1000px;height:800px;}.gmap_iframe {width:1000px!important;height:600px!important;}</style></div> </th>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+
+  <!-- Fifth Slide -->
+  <div class="container 4">
+    <table  border="0" align="center" cellpadding="5" cellspacing="0" width="90%"  style="margin-left: 90px;">
+    <!-- <table  border="0" align="center"  width="90%"  style="margin-left: 90px;"> -->
+
+      <!-- First Row -->
+
+      <!-- First image -->
+      <tr>
+        <th>
+          <h1 style="color:  rgb(0, 0, 0); cursor: pointer; margin-left: 140px; margin-top: 50px; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 70px;">Download our <br> mobile app.</h1>
+          <br>
+        </th>
+        
+        <th rowspan="2">
+          <img src="img/phones.png" alt="" style="height: 650px;">
+        </th>
+      </tr>
+
+      <tr>
+
+        <th>
+          <a href="#"><img src="img/1.svg" alt="logo"></a>
+          <a href="#"><img src="img/2.svg" alt="logo"></a>
+        </th>
+
+      </tr>
+
+
+    </table>
+    
+  </div>
+</body>
+</html>
